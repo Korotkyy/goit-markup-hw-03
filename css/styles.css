@@ -29,6 +29,10 @@ body {
     background-color: var(--background-body);
     font-family: 'Roboto', sans-serif;
 }
+header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .footer-logo-web {
     text-decoration: none;
@@ -68,9 +72,14 @@ font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.04em;
 cursor: pointer;
+display: block;
+margin: auto;
 }
 .hiro-section {
-    background-color: var(--background-hiro)
+    background-color: var(--background-hiro);
+    padding-top: 192px;
+    padding-bottom: 291px;
+    
 }
 
 .hiro {
@@ -78,6 +87,7 @@ cursor: pointer;
         text-align: center;
         font-size: 56px;
         line-height: 1.07;
+        margin-bottom: 48px;
     }
 
 
@@ -86,8 +96,16 @@ footer {
     color: var(--white-text);
 
 }
+.footer {
+    padding-bottom: 100px;
+    padding-top: 138px;
+}
 .our-team {
 background-color: #F4F4FD;
+}
+.menu {
+    display: flex;
+    gap: 30px;
 }
 .header-item {
 
@@ -109,6 +127,10 @@ background-color: #F4F4FD;
     text-decoration: none;
     color: #ffffff;
 }
+.header-contacts {
+    display: flex;
+    gap: 30px;
+}
 .header-link {
 font-weight: 400;
 font-size: 16px;
@@ -120,9 +142,7 @@ text-decoration: none;
 
 .contacts {
     color: var(--post-title);
-    text-align: right;
     list-style-type: none;
-    display: inline-block;
     font-size: 16px;
     font-family: 'Helvetica Neue', 'Roboto', 'Verdana', 'Tahoma', sans-serif;
 }
@@ -134,6 +154,10 @@ text-decoration: none;
     list-style-type: none;
     background-color: #ffffff;
 } 
+.skils {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .skils-text {
 
     font-weight: 400;
@@ -154,6 +178,11 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--navy-blue-text);
 list-style-type: none;
+margin-bottom: 8px;
+}
+.options {
+    padding-bottom: 120px;
+
 }
 .options-title {
 font-weight: 700;
@@ -161,6 +190,7 @@ font-size: 36px;
 line-height: 1.1;
 letter-spacing: 0.02em;
 color: var(--navy-blue-text);
+margin-bottom: 72px;
 }
 .our-team-title {
 font-weight: 700;
@@ -168,6 +198,7 @@ font-size: 36px;
 line-height: 1.1;
 letter-spacing: 0.02em;
 color: var(--navy-blue-text);
+margin-bottom: 72px;
 }
 .our-team-pre-title {
 
@@ -212,7 +243,8 @@ color: var(--footer-text);
     width: 1128px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 1px solid red
+    outline: 1px solid red;
+    margin: 0 auto;
   }
 /*-----------------------------PORTFOLIO-------------------------------*/
 .main-navigation {
