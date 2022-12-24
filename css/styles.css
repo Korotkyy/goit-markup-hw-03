@@ -38,8 +38,9 @@ header {
     
 }
 .header-shadow {
-    padding: auto;
+    
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
 }
 .header > .container {
     display: flex;
@@ -109,11 +110,11 @@ margin-top: 48px;
 }
 .hiro-section {
     background-color: var(--background-hiro);
-    padding-top: 192px;
+    padding-top: 188px;
     padding-bottom: 291px;
-    width: 1440px;
+  
 height: 603px;
-margin: auto;
+
     
     
 }
@@ -139,16 +140,16 @@ footer {
 .footer {
     padding-bottom: 100px;
     padding-top: 138px;
-    width: 1440px;
+   
     height: 310px;
-    margin: auto;
+    
 }
 .our-team {
 background-color: #F4F4FD;
-width: 1440px;
+
 height: 732px;
 text-align: center;
-margin: auto;
+
 }
 .header-item {
 
@@ -209,7 +210,7 @@ text-decoration: none;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.skils-list :last-child{
+.skils-list:last-child{
     margin: 0;
 }
 .skils-text {
@@ -224,6 +225,7 @@ text-decoration: none;
 .skils-list {
     list-style-type: none;
     margin-right: 20px;
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .skils-title {
@@ -323,7 +325,7 @@ margin-top: 16px;
 .main-navigation {
     list-style-type: none;
     display: flex;
-    flex-direction: row;
+    
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -339,9 +341,11 @@ flex-wrap: wrap;
 gap: 24px;
 margin-top: 72px;
 margin-bottom: 120px;
+
 }
 .option-item {
     list-style-type: none;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .pre-title {
     margin-top: 32px;
@@ -351,26 +355,37 @@ margin-bottom: 120px;
     margin-bottom: 32px;
 }
 .btn {
-    width: 170px;
-height: 51px;
     font-family: inherit;
 font-weight: 600;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
+line-height: 24px;
     background-color: #F4F4FD;
     cursor: pointer;
     color: #4D5AE5;
+    padding: 12px 24px 12px 24px;
+    display: flex;
+    border: 1px solid #E7E9FC;
+
+    justify-content: center;
+    align-items: center;
 }
 .btn:hover {
     background-color: #4D5AE5;
     text-decoration: none;
     color: #ffffff;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 4px;
+border: 1px solid #E7E9FC;
   }
   .btn:focus {
     background-color: #4D5AE5;
     text-decoration: none;
     color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border: 1px solid #E7E9FC;
   }
 
 a {
